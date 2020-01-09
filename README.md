@@ -1,2 +1,2 @@
 # womxn-hacks-demo-swiftui
-![preview](http://www.giphy.com/gifs/SwZNQ1KWnrykUbEgKV)
+![preview](https://media.giphy.com/media/XBibKwF4vXn9fsZXSD/giphy.gif)
