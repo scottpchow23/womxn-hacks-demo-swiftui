@@ -1,2 +1,4 @@
 # womxn-hacks-demo-swiftui
-![preview](https://media.giphy.com/media/XBibKwF4vXn9fsZXSD/giphy.gif)
+<p align="center"> 
+  <img src="https://media.giphy.com/media/XBibKwF4vXn9fsZXSD/giphy.gif" width="234" height="480" >
+</p>
