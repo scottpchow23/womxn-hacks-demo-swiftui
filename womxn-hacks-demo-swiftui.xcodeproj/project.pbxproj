@@ -13,6 +13,8 @@
 		B80DF29923C6824200B7C1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80DF29823C6824200B7C1A5 /* Assets.xcassets */; };
 		B80DF29C23C6824200B7C1A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80DF29B23C6824200B7C1A5 /* Preview Assets.xcassets */; };
 		B80DF29F23C6824200B7C1A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80DF29D23C6824200B7C1A5 /* LaunchScreen.storyboard */; };
+		B80DF2A723C6ADB800B7C1A5 /* TshirtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DF2A623C6ADB800B7C1A5 /* TshirtView.swift */; };
+		B80DF2A923C6AE7A00B7C1A5 /* DiscoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80DF2A823C6AE7A00B7C1A5 /* DiscoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B80DF29B23C6824200B7C1A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B80DF29E23C6824200B7C1A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B80DF2A023C6824200B7C1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B80DF2A623C6ADB800B7C1A5 /* TshirtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TshirtView.swift; sourceTree = "<group>"; };
+		B80DF2A823C6AE7A00B7C1A5 /* DiscoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				B80DF29223C6824000B7C1A5 /* AppDelegate.swift */,
 				B80DF29423C6824000B7C1A5 /* SceneDelegate.swift */,
 				B80DF29623C6824000B7C1A5 /* ContentView.swift */,
+				B80DF2A823C6AE7A00B7C1A5 /* DiscoView.swift */,
+				B80DF2A623C6ADB800B7C1A5 /* TshirtView.swift */,
 				B80DF29823C6824200B7C1A5 /* Assets.xcassets */,
 				B80DF29D23C6824200B7C1A5 /* LaunchScreen.storyboard */,
 				B80DF2A023C6824200B7C1A5 /* Info.plist */,
@@ -146,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B80DF2A723C6ADB800B7C1A5 /* TshirtView.swift in Sources */,
+				B80DF2A923C6AE7A00B7C1A5 /* DiscoView.swift in Sources */,
 				B80DF29323C6824000B7C1A5 /* AppDelegate.swift in Sources */,
 				B80DF29523C6824000B7C1A5 /* SceneDelegate.swift in Sources */,
 				B80DF29723C6824000B7C1A5 /* ContentView.swift in Sources */,

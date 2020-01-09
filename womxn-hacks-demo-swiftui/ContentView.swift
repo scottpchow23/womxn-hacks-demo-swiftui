@@ -9,8 +9,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var view = false
+
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            if view {
+                DiscoView()
+            } else {
+                TshirtView()
+            }
+            Button(action: {
+                self.view = !self.view
+            }) {
+                Text("change view")
+            }.padding()
+        }
     }
 }
 
