@@ -10,7 +10,7 @@ import SwiftUI
 
 struct TshirtView: View {
     // This is a state variable that causes the view to update when it changes/mutates.
-    @State var totalClicks = 0
+    @Binding var totalClicks: Int
 
     // This is a computed value, which means it runs the code in the following block to decide what value to return. Hence, it is "computed."
     var tshirtNoun: String {
@@ -37,7 +37,8 @@ struct TshirtView: View {
 }
 
 struct TshirtView_Previews: PreviewProvider {
+    @State static var testValue = 0
     static var previews: some View {
-        TshirtView()
+        TshirtView(totalClicks: $testValue)
     }
 }

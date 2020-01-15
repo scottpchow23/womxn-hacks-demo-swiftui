@@ -10,13 +10,14 @@ import SwiftUI
 
 struct ContentView: View {
     @State var view = false
-
+    @State var count = 0
+    @State var color = Color.white
     var body: some View {
         VStack {
             if view {
-                DiscoView()
+                DiscoView(backgroundColor: $color)
             } else {
-                TshirtView()
+                TshirtView(totalClicks: $count)
             }
             Button(action: {
                 self.view = !self.view

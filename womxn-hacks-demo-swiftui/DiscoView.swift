@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct DiscoView: View {
-    @State var backgroundColor = Color.white
+    @Binding var backgroundColor: Color
 
     var body: some View {
         ZStack{
@@ -30,7 +30,8 @@ struct DiscoView: View {
 }
 
 struct DiscoView_Previews: PreviewProvider {
+    @State static var color = Color.white
     static var previews: some View {
-        DiscoView()
+        DiscoView(backgroundColor: $color)
     }
 }
